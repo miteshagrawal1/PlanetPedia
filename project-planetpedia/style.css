@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+.nav{
+    background-color: rgb(15,3,60);
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    height: 75px;
+    color: white;
+    padding: 0 10px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* padding-left: 1rem; */
+    /* width: 100vw ; */
+    
+}
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav li{
+    list-style: none;
+    padding: 0 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    /* color: white; */
+}
+.navleft{
+    /* padding-left: 10px; */
+    font-size: 30px;
+}
+.navright{
+    font-size: 20px;
+}
+.middle{
+    background-color: rgb(15,3,60);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    padding: 7em 5em;
+}
+.middleleft img{
+    width: 360px;
+}
+.middleright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    /* width: 30vw; */
+    /* width: 100%; */
+}
+.middleright h1, .planetinfo, .source{
+    padding-bottom: 20px;
+    color: white;
+}
+#information{
+    color: rgba(255, 255, 255, 0.6);
+}
+.source{
+    color: rgba(255, 255, 255, 0.6);
+}
+.source a{
+    color: white;
+}
+#planetname{
+    font-size: 60px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.buttons button{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 42px;
+    margin-bottom: 20px;
+    /* width: 25vw; */
+    /* height: 6vh; */
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    color: rgba(255, 255, 255);
+    background-color: rgb(15,3,60);
+    padding-left: 15px;
+}
+.buttons button:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.end{
+    background-color: rgb(15,3,60);
+    /* padding-top: 10px; */
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.end div{
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    padding: 10px 10px;
+    width: 200px;
+    height: 50px;
+}
+.end div h4{
+    color: rgba(255, 255, 255, 0.6);
+}
+.end div p{
+    font-size: 30px;
+}

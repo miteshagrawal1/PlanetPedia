@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+    .nav{
+        flex-direction: column;
+        height: 100px;
+    }
+    .middle{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .middleright{
+        width: 100%;
+    }   
+    .end{
+        flex-wrap: wrap;
+    }
+    .middleleft img {
+        width: 240px;
+    }
+    .nav ul{
+        flex-wrap: wrap;
+    }
+    .buttons button{
+        margin-bottom: 20px;
+        width: 200px;
+        height: 40px;
+    }
+}
